@@ -36,9 +36,3 @@ for digit in odd_number:
     if (total_sum_digit % 7) == 0:    # если сумма всех чисел числа делится на 7 без остатка, то число нам подходит
         total_sum += sum_digit
 print("Сумма чисел, сумма цифр которых кратна 7, ", total_sum)
-
-
-
-
-
-
