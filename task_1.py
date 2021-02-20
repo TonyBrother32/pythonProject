@@ -1,4 +1,4 @@
-duration = int(input("Введите количество секунд: "))
+duration = int(input("Введите количество секунд:  "))
 second_limit = 60
 minute_limit = 3600
 hour_limit = 24
