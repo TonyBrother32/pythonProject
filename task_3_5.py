@@ -12,6 +12,3 @@ def get_jokes(w1, w2, w3, numbers=int(input("Сколько хотите шут�
 
 
 get_jokes(nouns, adverbs, adjectives)
-
-
-
