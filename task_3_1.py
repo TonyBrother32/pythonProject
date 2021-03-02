@@ -4,7 +4,7 @@ num_words = {"zero": "ноль", "one": "один", "two": "два", "three": "�
 
 def num_translate():
     num = input("Введите число на английском ")
-    print(f"Перевод на русский '{num_words.get(num)}'four")
+    print(f"Перевод на русский {num_words.get(num)}")
 
 
 num_translate()
