@@ -3,5 +3,4 @@ def odd_number_generator(n):
         yield num
 
 
-odd_number = odd_number_generator(55)
-print(*odd_number)
+print(*odd_number_generator(55))
