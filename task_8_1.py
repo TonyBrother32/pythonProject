@@ -13,4 +13,4 @@ def mail_is_valid(name):
 try:
     mail_is_valid(input("Введите e-mail для проверки "))
 except ValueError:
-    print("неверный e-mail")
+    print("Неверный e-mail")
