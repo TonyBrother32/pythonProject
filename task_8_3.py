@@ -8,7 +8,6 @@ def type_logger(func):
         result_list = [num for num in args]
         result = [f'{func.__name__}({num}: {type(num)})' for num in result_list]
         print(*result, *func(*args), sep="\n")
-
     return wrapper
 
 
