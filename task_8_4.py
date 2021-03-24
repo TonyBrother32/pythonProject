@@ -6,7 +6,6 @@ def val_checker(x_num):
             else:
                 raise ValueError(f"Неверное значение {num}")
         return wrapper
-
     return _val_checker
 
 
